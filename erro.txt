@@ -1,0 +1,7 @@
+1 Resposta erro encontrado.
+
+Venda venda = new Venda(idVenda, carrinho.stream().toList(), total, comissaoSistema, empresa, cliente);
+
+carrinho.stream().toList(), 
+estava passando o objeto diferente para o objeto venda.
+
